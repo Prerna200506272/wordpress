@@ -1,0 +1,179 @@
+@charset"UTF-8";
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333; /* Header background color */
+  color: #eee; /* Header text color */
+} 
+
+/* Logo styles */
+header .logo {
+  order: 2;
+}
+
+header img {
+  max-width: 150px;
+}
+
+/* Navigation styles */
+nav {
+  order: 1; 
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ddd; 
+}
+
+/* Main section styles */
+main {
+  padding: 20px;
+}
+
+section h1 {
+  font-size: 2.5em;
+  color: #007bff; 
+  text-align: center;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+section img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Masthead section styles */
+.masthead {
+  height: 80vh;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+  text-align: center;
+}
+
+.masthead div {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(20, 20, 20, 0.7); 
+}
+
+.masthead div h1 {
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* About Me section styles */
+.about-me,
+.professional-skills,
+.career-goals {
+  margin-top: 40px;
+}
+
+/* Section title styles */
+h2 {
+  color: #007bff; /* Section title color */
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+p {
+  line-height: 1.8;
+}
+
+/* Post Masthead section styles */
+.mypost-masthead {
+  height: 80vh;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+  text-align: center;
+}
+
+.mypost-masthead div {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(30, 30, 30, 0.7); /* Darker background color */
+}
+
+.mypost-masthead h1 {
+  font-size: 2.5em;
+  text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Main content styles */
+.row {
+  margin-top: 20px;
+}
+
+/* Content column styles */
+.col-sm-12,
+.col-md-8,
+.col-lg-8,
+.post-list {
+  margin-bottom: 20px;
+}
+
+/* Image in the post-list styles */
+.mypost-list img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333; /* Footer background color */
+  color: #eee; /* Footer text color */
+  padding: 20px;
+  text-align: center;
+} 
+
+/* Animation Styles */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
